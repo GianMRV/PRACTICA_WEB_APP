@@ -1,0 +1,38 @@
+.Register{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: linear-gradient(45deg, #1A2980, #26D0CE);
+    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #26D0CE;
+}
+.Field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 230px;
+}
+.Label{
+    margin: 0 0 5px 5px;
+    font-size: 15px;
+    font-style: oblique;
+    text-align: left;
+}
+.Text{
+    background: rgba(255, 255, 255, 0.468);
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 0 7px black;
+    height: 25px;
+    font-size: 17px;
+    padding-inline-start: 10px;
+}
+.Submit{
+    margin-top: 40px;
+    box-shadow: 0 0 10px #1A2980;
+}
