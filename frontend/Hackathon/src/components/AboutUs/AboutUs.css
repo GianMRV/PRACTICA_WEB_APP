@@ -1,0 +1,9 @@
+.EjectCard{
+    height: 200px;
+    overflow-y: hidden;
+} 
+.EjectCard:hover{
+    box-shadow: 0 0 20px #26D0CE;
+    transform: scale(115%);
+    height: 100%;   
+}
